@@ -92,8 +92,8 @@ void app_main(void)
 
     wifi_config_t wifi_cfg = {
         .sta = {
-            .ssid = "UPC7912814",
-            .password = "Jv8zspbckxHs"}};
+            .ssid = "........",
+            .password = "......."}};
     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_cfg));
     ESP_ERROR_CHECK(esp_wifi_start());
