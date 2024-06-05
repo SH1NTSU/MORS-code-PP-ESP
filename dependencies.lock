@@ -1,4 +1,9 @@
 dependencies:
+  espressif/esp_websocket_client:
+    component_hash: ae561d39222a399ddda5e470913c3d54a3c0f53dce15b8d21a3aaa4226dd74b1
+    source:
+      type: service
+    version: 1.2.3
   espressif/led_strip:
     component_hash: 67d2744208e9c12d8b1992d21c979396c1726e57cb7e35e7c171c515be20f8ea
     source:
@@ -9,6 +14,11 @@ dependencies:
     source:
       type: idf
     version: 5.2.1
-manifest_hash: 8c267c56c619b5d5c155d7772c0db71d842ad80ed847756e6cefbecc9f657f7a
+  parabuzzle/http_rest_client:
+    component_hash: e5235176e536c6b552ddcad0547bcff11aee81cef25e18ede92221f1a0451068
+    source:
+      type: service
+    version: 0.1.4
+manifest_hash: 28a8f5e5540904765bdb7873c972b2ebfc1b14f82e728aa50e5f6243c764b584
 target: esp32
 version: 1.0.0
